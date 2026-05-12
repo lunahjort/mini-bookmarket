@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import BookDetail from './pages/BookDetail'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import CreateBook from './pages/CreateBook'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/books/:id" element={<BookDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/books/create" element={<CreateBook />} />
       </Routes>
     </>
   )
